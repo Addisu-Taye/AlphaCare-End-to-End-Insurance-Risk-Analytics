@@ -1,0 +1,80 @@
+# =============================
+# Python standard ignores
+# =============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# =============================
+# Virtual Environment
+# =============================
+venv/
+.env/
+.venv/
+
+# =============================
+# Jupyter Notebook checkpoints
+# =============================
+.ipynb_checkpoints
+
+# =============================
+# OS generated files
+# =============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =============================
+# VS Code settings (if using VSCode)
+# =============================
+.vscode/
+
+# =============================
+# Logs
+# =============================
+logs/
+*.log
+
+# =============================
+# Data outputs (can be regenerated)
+# =============================
+data/cleaned/
+data/eda/
+
+# =============================
+# Reports & auto-generated docs
+# =============================
+reports/*.docx
+reports/*.pdf
+
+
+
+# =============================
+# DVC files (optional, if you're using DVC properly)
+# =============================
+.dvc/
+*.dvc
+.dvcignore
+
+# =============================
+# Model outputs
+# =============================
+models/
+checkpoints/
+artifacts/
+*.h5
+*.hdf5
+*.ckpt
+*.joblib
+*.pkl
+
+# =============================
+# Other temporary files
+# =============================
+*.bak
+*.swp
+*.tmp
