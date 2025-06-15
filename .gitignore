@@ -1,3 +1,4 @@
+
 # =============================
 # Python standard ignores
 # =============================
@@ -42,8 +43,12 @@ logs/
 # =============================
 # Data outputs (can be regenerated)
 # =============================
+data/
 data/cleaned/
-data/eda/
+.dvc/
+.dvcignore
+data.dvc
+
 
 # =============================
 # Reports & auto-generated docs
@@ -78,3 +83,6 @@ artifacts/
 *.bak
 *.swp
 *.tmp
+=======
+
+
