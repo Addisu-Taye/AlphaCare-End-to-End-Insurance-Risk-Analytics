@@ -49,6 +49,7 @@ def bivariate_analysis(df):
     os.makedirs('plots/eda_plots/bivariate', exist_ok=True)
 
     # 1. Monthly Total Premium Over Time
+    
     monthly_premium = df.groupby(df['TransactionMonth'].dt.to_period('M'))['TotalPremium'].sum()
     monthly_premium.to_csv("data/eda/bivariate/monthly_total_premium.csv")
 

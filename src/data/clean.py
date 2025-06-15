@@ -67,6 +67,7 @@ def generate_cleaning_plots(df):
         plt.close()
 
     # Plot 3: Correlation Heatmap
+    
     plt.figure(figsize=(10, 8))
     corr = df[numeric_cols].corr()
     sns.heatmap(corr, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5)
