@@ -63,7 +63,7 @@ reports/*.pdf
 # =============================
 # Model outputs
 # =============================
-models/
+
 checkpoints/
 artifacts/
 *.h5
