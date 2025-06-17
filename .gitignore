@@ -42,9 +42,7 @@ logs/
 # =============================
 # Data outputs (can be regenerated)
 # =============================
-data/cleaned/
-data/eda/
-
+data/
 # =============================
 # Reports & auto-generated docs
 # =============================
@@ -57,7 +55,7 @@ reports/*.pdf
 # DVC files (optional, if you're using DVC properly)
 # =============================
 .dvc/
-*.dvc
+#*.dvc
 .dvcignore
 
 # =============================
@@ -78,3 +76,4 @@ artifacts/
 *.bak
 *.swp
 *.tmp
+/data
